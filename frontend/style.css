@@ -1,0 +1,81 @@
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    }
+.lim{
+    top: -6px;
+    left: 0px;
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid #115551;
+    background: #7A949C;
+    height: 50px;
+    width: 138px;
+    margin:30px;
+    font-size: 20px;    
+}
+::-webkit-input-placeholder {
+    color: #9fb4b3;
+ }
+#inputContainer{
+    height: 100px;
+    width: 400px;
+    margin: 0 auto;
+}
+#menu{
+    
+    position: relative;
+    margin: 0 auto;
+    width: 90vw;
+    height: 100px;
+    top: 34px;
+    left:-10px;
+
+    background: #7A949C;
+    border: 3px solid #115551;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+#container{
+
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+
+    background: #2F464E;
+}
+
+
+
+#circulo{
+    position: relative;
+    margin: 0 auto;
+    width: 345px;
+height: 345px;
+top: 20vh;
+left: -10px;
+
+background: #7A949C;
+border: 3px solid #FFFFFF;
+box-sizing: border-box;
+border-radius: 50%;
+}
+
+#resultado{
+    position: relative;
+    width: 254px;
+    height: 228px;
+    left: 66px;
+    top: -66px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 200px;
+line-height: 234px;
+
+color: #115551;
+
+text-shadow: -2px 1px 13px  #EFFBFF;
+}

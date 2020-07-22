@@ -4,8 +4,13 @@ const { app, BrowserWindow } = require('electron')
 function createWindow () {
   // Cria uma janela de navegação.
   const win = new BrowserWindow({
-    width: 800,
-    height: 600,
+    width: 480,
+    height: 720,
+    backgroundColor: '#2F464E',
+    minWidth: 480,
+    minHeight: 720,
+    maxWidth: 800,
+    title: "Raffle Mateus",
     webPreferences: {
       nodeIntegration: true
     }
@@ -15,7 +20,7 @@ function createWindow () {
   win.loadFile('./frontend/index.html')
 
   // Open the DevTools.
-  win.webContents.openDevTools()
+
 }
 
 // This method will be called when Electron has finished
